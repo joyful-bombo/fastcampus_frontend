@@ -56,6 +56,8 @@
 - **앨리어싱 현상 X, 정교한 이미지(인물, 풍경사진 등) 표현 어려움**.
 3. Material Design (**참고**)
 - 고품질 디지털 경험을 구축할 수 있도록 Google에서 만든 디자인 시스템
+
+##💡 Bitmap
 4. JPG(Joint Photographic coding Experts Group)
 - Full-color 와 Gray-Scale의 압축을 위해 만들어졌으며, 압축률이 훌륭해 사진이나 예술 분야에서 많이 사용.
 - ### 특징
@@ -82,9 +84,10 @@
   - 완벽한 손실 / 비손실 압축 지원
   - GIF 같은 애니메이션 지원
   - Alpha Channel 지원
+## 💡 **Vector** 
 8. SVG(Scalable Vector Graphics)
 - 마크업 언어(HTML/XML) 기반의 벡터 그래픽을 표현하는 포맷
 - ### 특징
-  - 해상도의 영향에서 자유로움
-  - CSS와 JS로 제어 가능
-  - 파일 및 코드 삽입 기능
+  - **해상도의 영향에서 자유로움**
+  - **CSS와 JS로 제어 가능**
+  - 파일 및 코드 삽입 가능
