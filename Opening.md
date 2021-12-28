@@ -32,7 +32,7 @@
   - 웹에서 사용되는 표준 기술이나 규칙
   - W3C의 표준화 제정 단계의 '권고안(REC)'에 해당하는 기술
 
-##💡 W3C의 표준화 제정 단계
+## 💡 W3C의 표준화 제정 단계
 1. 초안(Working Draft, WD)
 2. 후보권고안(Candidate Recommendation, CR)
 3. 제안권고안(Proposed Recommendation, PR)
@@ -57,7 +57,7 @@
 3. Material Design (**참고**)
 - 고품질 디지털 경험을 구축할 수 있도록 Google에서 만든 디자인 시스템
 
-##💡 Bitmap
+## 💡 Bitmap
 4. JPG(Joint Photographic coding Experts Group)
 - Full-color 와 Gray-Scale의 압축을 위해 만들어졌으며, 압축률이 훌륭해 사진이나 예술 분야에서 많이 사용.
 - ### 특징
