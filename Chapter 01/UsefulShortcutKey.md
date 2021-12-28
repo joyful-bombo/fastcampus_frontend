@@ -1,18 +1,18 @@
 ## 💡 Visual Studio Code Useful ShortcutKey
 
 
--**Side Bar Open/Close
+- **Side Bar Open/Close**
   - Cmd + B
--**Quick Open
+- **Quick Open
   - Cmd + P
--**Display all Command
+- **Display all Command
   - Cmd + Shift + P
--**Close Editor Tab
+- **Close Editor Tab
   - Cmd + W
--**Search
+- **Search
   - Cmd + F
--**Search And Change
+- **Search And Change
   - Cmd + Alt + F
--**Move Up the line
+- **Move Up the line
   - Alt + Up(UpArrow)
 
