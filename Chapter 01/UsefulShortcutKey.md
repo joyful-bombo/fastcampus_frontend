@@ -1,7 +1,7 @@
 ## 💡 Visual Studio Code Useful ShortcutKey
 
 
--**Side Bar Open/Close**
+-**Side Bar Open/Close
   - Cmd + B
 -**Quick Open
   - Cmd + P
