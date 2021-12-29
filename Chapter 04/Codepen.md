@@ -10,3 +10,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
   ```
 - from https://www.jsdelivr.com/package/npm/reset-css
+
+## 💡 Emmet
+- html, css 문법에 맞게 자동으로 완성시켜주는 도구
+- https://emmet.io/ 에서 확인가능
+- 차후 정리 추가
