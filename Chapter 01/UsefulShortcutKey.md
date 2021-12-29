@@ -15,4 +15,21 @@
   - Cmd + Alt + F
 - **Move Up the line**
   - Alt + Up(UpArrow)
-
+- **Move Down the line**
+  - Alt + Down(DownArrow)
+- **Move Copy Down the line**
+  - Alt + Shift + Down(DownArrow)
+- **Undo**
+  - Cmd + Z
+- **Move Copy Up the line**
+  - Alt + Shift + Up(UpArrow)
+- **Indent(들여쓰기)**
+  - Tab
+- **Outdent(내어쓰기)**
+  - Shift + Tab
+- **Open Previous Editor**
+  - Cmd + Shift + [
+- **Open Next Editor**
+  - Cmd + Shift + ]
+- **Divide Editor**
+  - Cmd + \
