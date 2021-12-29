@@ -3,7 +3,7 @@
 
 ## 💡 브라우저 스타일 초기화
 - 각각의 브라우저 도구(Chrome, whale, Safari 등)는 고유의 스타일 시트가 지정되어 있다.
-- ex) Chrome margin: 8px; 
+- ex) Chrome margin: 8px;
 - 이를 방지 하기 위해 브라우저 스타일 css 초기화를 진행해준다.
   -
   ```
