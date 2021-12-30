@@ -31,7 +31,7 @@
     - 라벨 가능 요소(input)의 제목
     
 ## 💡 Inline-Block Elemnet
-  - ** 가로, 세로 사이즈 및 여백 설정 가능, 하지만 수평으로 요소 채워짐.
+  - **가로, 세로 사이즈 및 여백 설정 가능, 하지만 수평으로 요소 채워짐.
   - input
     - 사용자가 데이터를 입력하는 요소
     - type(Attribute)
@@ -42,9 +42,16 @@
       - 사용자가 입력할 값의 힌트
     - disabled(Attribute)
       - 입력 요소 비활성화
-    - checked(Attribute)
-      - 입력 요소 체크 됌
+    - checkbox(Attribute)
+      - checked(Attribute)
+        - 입력 요소 체크 됌
     - radio(Attribute)
-      - 사용자에게 체크 여부를 그룹에서 
+      - 사용자에게 체크 여부를 그룹에서 1개만 입력 받음!(택1)
+      - name(Attribute)
+        - 그룹
+      - name(Attribute)
+
+## 💡 Table Element
+  - 표 요소,
       
     
