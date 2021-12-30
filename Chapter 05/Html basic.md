@@ -32,8 +32,12 @@
     - 속성, 값 == 기능의 확장
 - **<input/>**
   - 사용자가 데이터를 입력하는 요소(태그)!
-  - <input type="checkbox"/>
-  - <input type="button"/> 등등
+    - 
+    ```
+    <input type="checkbox"/>
+    <input type="button"/> 
+    ```
+    
   - ex)
   ```
   <input type="text"/>
