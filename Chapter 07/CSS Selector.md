@@ -73,7 +73,22 @@
       }
       ```
   - ACTIVE
-    - 선택자 A 요소에 마우스를 클릭하고 
+    - 선택자 A 요소에 **마우스를 클릭하고 있는 동안** 선택
+    - ```
+      a:active {
+        color: red;
+      }
+      ```
+  - FOCUS
+    - 선택자 A 요소가 **포커스되면** 선택
+      - 포커스 가능 요소
+        - HTML 대화형 컨텐츠
+        - INPUT, A, BUTTON, LABEL, SELECT, tabindex등등
+      - ```
+        input:focus {
+          background-color: orange;
+        }
+        ```
 ## 💡 가상 요소
 
 ## 💡 속성
