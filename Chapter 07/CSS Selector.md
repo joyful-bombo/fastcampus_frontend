@@ -30,6 +30,7 @@
       ```
 ## 💡 복합
   - 일치 선택자(Basic Combinator)
+    - A.B
     - 선택자 A와 B를 **동시에 만족**하는 요소 선택
     - ```
       span.orange {
@@ -37,6 +38,7 @@
       }
       ```
   - 자식 선택자(Child Combinator)
+    - A > .B
     - 선택자 A의 **자식** 요소 B 선택
     - ```
       ul > .orange {
@@ -44,6 +46,7 @@
       }
       ```
   - 하위 선택자(Descendant Combinator)
+    - A .B
     - 선택자 A의 **하위** 요소 B 선택 **띄어쓰기**가 선택자의 기호
     - ```
       div .orange {
@@ -51,12 +54,14 @@
       }
       ```
   - 인접 형제 선택자(Adjacent Sibling Combinator)
+    - A + B
     - 선택자 A의 다음 형제 요소 B **하나**를 선택
     - ```
       .orange + li {
         color: red;
       }
   - 일반 형제 선택자(General Sibling Combinator)
+    - A ~ B
     - 선택자 A의 다음 형제 요소 B **모두**를 선택
     - ```
       .orange ~ li {
@@ -66,6 +71,7 @@
 ## 💡 가상 클래스
   - 가상 클래스 선택자(Pseudo-Classes)
   - HOVER
+    - A:hover
     - 선택자 A의 요소에 **마우스 커서가 올라가 있는 동안** 선택
     - ```
       a:hover {
@@ -73,6 +79,7 @@
       }
       ```
   - ACTIVE
+    - A:active
     - 선택자 A 요소에 **마우스를 클릭하고 있는 동안** 선택
     - ```
       a:active {
@@ -80,6 +87,7 @@
       }
       ```
   - FOCUS
+    - A:focus
     - 선택자 A 요소가 **포커스되면** 선택
       - 포커스 가능 요소
         - HTML 대화형 컨텐츠
@@ -89,6 +97,43 @@
           background-color: orange;
         }
         ```
+  - FIRST CHILD
+    - A:first-child
+    - 선택자 A가 형제 요소 중 첫째라면 선택
+    - ```
+      .fruits span:first-child {
+        color: red;
+      }
+      ```
+  - LAST CHILD
+    - A:last-child
+    - 선택자 A가 형제 요소 중 막내라면 선택
+    - ```
+      .fruits h3:last-child {
+        color: red;
+      }
+      ```
+  - NTH CHILD
+    - A:nth-child(n)
+    - 선택자 A가 형제 요소 중 (n)째라면 선택
+    - ```
+      .fruits *:nth-child(2) {
+        color: red;
+      }
+      
+      .fruits *:nth-child(2n) {
+        color: red;
+      }
+      ```
+    - n은 0부터 시작(Zero-Based Numbering)
+  - NOT
+    - A:not(B)
+    - 선택자 A가 아닌 B인 모든 요소 선택
+    - ```
+      .fruits *:not(span) {
+        color: red;
+      }
+      ```
 ## 💡 가상 요소
 
 ## 💡 속성
