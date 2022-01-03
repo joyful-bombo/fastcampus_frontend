@@ -154,4 +154,21 @@
       }
       ```
       
-## 💡 속성
+## 💡 속성 선택자(Attribute)
+  - [ABC]
+    - 속성 ABC를 포함한 요소 선택
+    - ```
+      [disabled] {
+        color: red;
+      }
+      ```
+  - [Type]
+    - 속성 ABC를 포함한 요소 선택
+  - [ATTR=VALUE]
+    - [ABC="XYZ"]
+    - 속성 ABC를 포함하고 값이 XYZ인 요소 선택.
+    - ```
+      [type="password"] {
+        color: red;
+      }
+      ```
