@@ -138,6 +138,7 @@
   - BEFORE
     - A::before
     - 선택자 A 요소의 **내부 앞**에 내용(Content)을 삽입.
+    - **content를 안쓰더라도 꼭 써줘야한다.**
     - ```
       .box::before {
         content: "앞!";
@@ -146,6 +147,7 @@
   - AFTER
     - A::after
     - 선택자 A의 요소의 **내부 뒤**에 내용(Content)을 삽입.
+    - **content를 안쓰더라도 꼭 써줘야한다.**
     - ```
       .box::after {
         content: "뒤!";
