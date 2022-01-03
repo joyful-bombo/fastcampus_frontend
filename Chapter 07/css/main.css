@@ -1,13 +1,7 @@
-.box {
-  width: 100px;
-  height: 100px;
+[type="text"] {
   background-color: orange;
 }
 
-.box::before {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 30px;
-  background-color: royalblue;
+[data-fruit-name] {
+  color: red;
 }
