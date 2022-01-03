@@ -4,11 +4,6 @@
     color: red;
   }
   
-  .tiger {
-    color: inherit; /* 상속 */
-  }
-  
-  
   <div class="ecosystem">생태계
     <div class="animal">동물
       <div class="tiger">호랑이</div>
@@ -31,4 +26,8 @@
   - 등등
 
 ## 💡 강제 상속
-  
+  - ```
+    .tiger {
+      color: inherit; /* 상속 */
+    }
+    ```
