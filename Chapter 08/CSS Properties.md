@@ -37,7 +37,7 @@
         - 브라우저가 너비를 계산
       - 단위
         - px, em, vw 등 단위로 지정
-    - max-width, max-height
+    - **max-width, max-height**
       - 요소가 커질 수 있는 **최대** 가로/세로 너비
         - none
           - 최대 너비 제한 없음
@@ -45,7 +45,7 @@
           - 브라우저가 너비를 계산
         - 단위
           - px, em, vw 등 단위로 지정
-    - min-width, min-height
+    - **min-width, min-height**
       - 요소가 작아질 수 있는 **최소** 가로/세로 너비
         - 0
           - 최소 너비 제한 없음
