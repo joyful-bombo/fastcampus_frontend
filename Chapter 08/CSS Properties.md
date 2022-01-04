@@ -30,7 +30,7 @@
       /* 가로너비와 세로너비가 콘텐츠 요소에 맞게 줄어듬 */
     }
     ```
-  - width, height
+  - ##❗ width, height
     - 요소의 가로/세로 너비
     - Default Value
       - auto
