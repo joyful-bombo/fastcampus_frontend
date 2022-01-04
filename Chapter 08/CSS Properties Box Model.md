@@ -198,3 +198,9 @@
       - 둥글게 없음
     - 단위
       - px, em, vw등 단위로 지정
+  - ## ❗ box-sizing
+    - content-box
+      - 요소의 내용(content)으로 크기 계산
+      - 수동 계산
+    - border-box
+      - 요소의 내용 + padding + border로 크기 계산
