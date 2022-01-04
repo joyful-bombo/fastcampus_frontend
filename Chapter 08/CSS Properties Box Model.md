@@ -184,3 +184,17 @@
   - HSLA
     - 색상, 채도, 명도 + 투명도
     - hsla(120, 100%, 50%, 0.3)
+  - border-방향
+  - border-방향-속성
+  - ```CSS
+    border-top: 두께 종류 색상;
+    border-top-width: 두께;
+    border-top-style: 종류;
+    border-top-color: 색상;
+    ```
+  - ## ❗ border-radius
+    - 요소의 모서리를 둥글게 깎음
+    - 0
+      - 둥글게 없음
+    - 단위
+      - px, em, vw등 단위로 지정
