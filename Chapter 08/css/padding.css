@@ -1,0 +1,10 @@
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  margin: 10px;
+  /* margin-bottom, margin-top, margin-left, margin-right */
+}
+.container .item:first-child {
+  padding: 20px;
+}
