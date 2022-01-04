@@ -72,6 +72,31 @@
           - 브라우저가 너비를 계산
         - 단위
           - px, em, vw등 단위로 지정
+  - ## ❗ margin
+    - 요소의 **외부** 여백(공간)을 지정하는 **단축 속성**
+    - **음수를 사용할 수 있다.**
+    - 0
+      - 외부 여백 없음
+    - auto
+      - 브라우저가 여백을 계산
+      - 가로(세로) 너비가 있는 요소의 **가운데 정렬**에 활용!
+    - 단위
+      - px, ex, vw 등 단위로 지정
+    - %
+      - 부모 요소의 **가로 너비**에 대한 비율로 지정
+      - 잘 사용하지 않음
+    - ```CSS
+      margin: 20px; /* Top, Bottom, Left, Right 20px */
+      margin: 10px 20px; /* Top, Bottom 10px & Left, Right 20px */ 
+      margin: 10px 20px 30px; /* Top 10px & Left, Right 20px & Bottom 30px */
+      margin: 10px 20px 30px 40px; /* Top 10px & Right 20px & Bottom 30px & Left 40px */
+      ```
+    - margin-방향
+      - 요소의 외부 여백(공간)을 지정하는 기타 **개별 속성**들
+        - margin-top
+        - margin-bottom
+        - margin-left
+        - margin-right
 ## 💡 글꼴, 문자
 
 ## 💡 배경
