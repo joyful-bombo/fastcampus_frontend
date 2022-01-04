@@ -13,7 +13,7 @@
   - 필터
 
 ## 💡 CSS 표현 단위
-  - 단위
+  - ## ❗ 단위
     - px
       - 픽셀
       - 화면에 출력하는 한개의 점
@@ -97,6 +97,27 @@
         - margin-bottom
         - margin-left
         - margin-right
+  - ## ❗ Padding
+    - 요소의 **내부 여백(공간)**을 지정하는 단축 속성
+    - **요소의 크기가 커진다.**
+      - 0
+        - 내부 여백 없음
+      - 단위
+        - px, em, vw 등 단위로 지정
+      - %
+        - 부모 요소의 **가로 너비**에 대한 비율로 지정
+    - ```CSS
+      padding: 20px; /* Top, Bottom, Left, Right 20px */
+      padding: 10px 20px; /* Top, Bottom 10px & Left, Right 20px */ 
+      padding: 10px 20px 30px; /* Top 10px & Left, Right 20px & Bottom 30px */
+      padding: 10px 20px 30px 40px; /* Top 10px & Right 20px & Bottom 30px & Left 40px */
+      ```
+    - padding-방향
+      - 요소의 외부 여백(공간)을 지정하는 기타 **개별 속성**들
+        - padding-top
+        - padding-bottom
+        - padding-left
+        - padding-right
 ## 💡 글꼴, 문자
 
 ## 💡 배경
