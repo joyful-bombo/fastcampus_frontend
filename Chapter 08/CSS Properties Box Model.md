@@ -118,24 +118,69 @@
         - padding-bottom
         - padding-left
         - padding-right
-## 💡 글꼴, 문자
-
-## 💡 배경
-
-## 💡 배치
-
-## 💡 플렉스(정렬)-수평 정렬
-
-## 💡 전환
-
-## 💡 변환
-
-## 💡 띄움
-
-## 💡 애니메이션
-
-## 💡 그리드
-
-## 💡 다단
-
-## 💡 필터
+  - ## ❗ border
+    - 요소의 **테두리 선**을 지정하는 **단축 속성**
+    - border: 선-두께 선-종류 선-색상;
+    - ```CSS
+      border: border-width, border-style, border-color;
+      ```
+    - default Value
+      - medium, none, black
+    - **border-width**
+      - medium(중간두께)
+      - thin(얇은 두께)
+      - thick(두꺼운 두께)
+      - 단위
+        - px, em, % 등 단위로 지정
+      - 단축 속성 적용 가능
+      - ```CSS
+        border-width: 10px;
+        border-width: 10px 10px;
+        border-width: 10px 20px 30px;
+        border-width: 10px 20px 30px 40px;
+        ```
+    - **border-style**
+      - none : 선 없음
+      - solid : 실선
+      - dotted : 점선
+      - dashed : 파선
+      - double : 두 줄 선
+      - groove : 홈이 파여있는 모양
+      - ridge : 솟은 모양
+      - inset : 요소 전체가 들어간 모양
+      - outset : 요소 전체가 나온 모양
+      - ```CSS
+        border-style: 10px;
+        border-style: 10px 10px;
+        border-style: 10px 20px 30px;
+        border-style: 10px 20px 30px 40px;
+        ```
+    - **border-color**
+      - black
+      - 색상
+      - transparent(투명도)
+      - ```CSS
+        border-color: 10px;
+        border-color: 10px 10px;
+        border-color: 10px 20px 30px;
+        border-color: 10px 20px 30px 40px;
+        ```
+- ## ❗ 색상표현
+  - 색상 이름
+    - 브라우저에서 제공하는 색상 이름
+    - red, tomato, royalblue
+  - Hex 색상코드
+    - 16진수 색상(Hexadecimal Colors)
+    - #000, #FFFFFF
+  - RGB
+    - 빛의 삼원색
+    - rgb(255, 255, 255)
+  - RGBA
+    - 빛의 삼원색 + 투명도 
+    - rgba(0, 0, 0, 0.5)
+  - HSL
+    - 색상, 채도, 명도
+    - hsl(120, 100%, 50%)
+  - HSLA
+    - 색상, 채도, 명도 + 투명도
+    - hsla(120, 100%, 50%, 0.3)
