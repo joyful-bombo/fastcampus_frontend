@@ -1,0 +1,13 @@
+.parent {
+  width: 300px;
+  height: 200px;
+  background-color: royalblue;
+}
+
+.child {
+  width: 50%;
+  height: 100px;
+  background-color: orange;
+}
+
+/* px, %, em, rem, vw, vh 등등 사용가능 */
