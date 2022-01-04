@@ -43,5 +43,5 @@
     #submit span { color: red; } /* #submit(100) + span(1) = 101 */
     header .menu li:nth-child(2) { color: red; } /* header(1) + .menu(10) + li(1) + :nth-child(2) (10) = 22 */
     h1 { color: red; } /* h1 (1) = 1 */
-    :not(.box) { color: red; }  /* :not(10) = 10 */
+    :not(.box) { color: red; }  /* .box(10), :not은 점수계산 X = 10 */
     ```
