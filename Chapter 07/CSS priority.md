@@ -3,7 +3,7 @@
   - 점수가 높은 선언이 우선
   - 점수가 같으면, 가장 마지막에 해석된 선언이 우선
   
-- ```
+- ```HTML
   <div
     id="color_yellow"
     class="color_green"
@@ -11,7 +11,7 @@
     Hello World!
   </div>
   ```
-- ```
+- ```CSS
   div {
     color: red !important; /* infinity */
     }
