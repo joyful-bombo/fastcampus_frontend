@@ -226,7 +226,7 @@
     - 글자 요소
   - inline-block
     - 글자 + 상자 요소
-  - **각 요소에 이미 지정되어 있는 값** 
+  - <span style="color:red">**각 요소에 이미 지정되어 있는 값**</span> 
 ---
   - flex
     - 플렉스 박스 (1차원 레이아웃)
@@ -236,5 +236,5 @@
     - 보여짐 특성 없음, 화면에서 사라짐
   - 기타
     - table, table-row, table-cell 등등
-  - **따로 지정해서 사용하는 값**
+  - <span style="color:blue">**따로 지정해서 사용하는 값**</span>
    
