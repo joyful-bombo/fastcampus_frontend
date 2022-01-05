@@ -1,0 +1,86 @@
+- ## 💡 글꼴과 문자
+
+- ## ❗ 글꼴
+  - font-style
+    - 글자의 **기울기**
+    - normal
+      - 기울기 없음
+    - italic
+      - 이텔릭체
+    - oblique(잘 안씀)
+      - 기울어진 글자
+  - font-weight
+    - **글자의 두께(가중치)**
+    - normal, 400
+      - 기본 두께
+    - bold, 700
+      - 두껍게
+    - bolder
+      - 상위(부모) 요소보다 더 두껍게
+    - lighter
+      - 상위(부모) 요소보다 더 얇게
+    - 100 ~ 900
+      - 100 단위의 숫자 9개, normal과 bold 이외 두께
+  - font-size
+    - **글자의 크기**
+    - 16px
+      - 기본 크기
+    - 단위
+      - px, em, rem 등 단위로 지정
+  - line-height
+    - 한 줄의 높이, **행간과 유사**
+    - normal
+      - 브라우저의 기본 정의를 사용
+    - 숫자
+      - 요소의 글꼴 크기의 배수로 지정
+    - 단위
+      - px, em, rem 등의 단위로 지정
+  - font-family
+    - **글꼴 서체** 지정
+    - font-family: 글꼴1, "글꼴2", ... 글꼴계열;
+    - **띄어쓰기 등 특수문자가 포함된 글꼴 이름**은 큰 따옴표로 묶어야 한다.
+    - **대표 글꼴**
+      - serif
+        - 바탕체 계열
+      - sans-serif
+        - 고딕체 계열
+      - monospace
+        - 고정너비(가로폭이 동등) 글꼴 계열
+      - cursive
+        - 필기체 계열
+      - fantasy
+        - 장식 글꼴 계열
+- ## ❗ 문자
+  - color
+    - 글자의 색상
+    - rgb(0,0,0)
+      - 검정색
+    - 색상
+      - 기타 지정 가능한 색상
+  - text-align
+    - 문자의 정렬 방식
+    - left
+      - 왼쪽 정렬
+    - right
+      - 오른쪽 정렬
+    - center
+      - 가운데 정렬
+    - justify
+      - 양쪽 정렬
+  - text-decoration
+    - 문자의 **장식(선)**
+    - none
+      - 장식 없음
+    - underline
+      - 밑줄
+    - overline
+      - 윗줄
+    - line-through
+      - 중앙 선
+  - text-indent
+    - 들여쓰기
+    - 0
+      - 들여쓰기 없음.
+    - 음수를 사용할 수 있음
+      - 내어쓰기
+    - px, em, rem 등 단위로 지정
