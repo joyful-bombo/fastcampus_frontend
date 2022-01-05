@@ -192,29 +192,49 @@
     border-top-style: 종류;
     border-top-color: 색상;
     ```
-  - ## ❗ border-radius
-    - 요소의 모서리를 둥글게 깎음
-    - 0
-      - 둥글게 없음
-    - 단위
-      - px, em, vw등 단위로 지정
-  - ## ❗ box-sizing
-    - content-box
-      - 요소의 내용(content)으로 크기 계산
-      - 수동 계산
-    - border-box
-      - 요소의 내용 + padding + border로 크기 계산
-  - ## ❗ overflow
-    - 요소의 크기 이상으로 **내용이 넘쳤을 때, 보여짐을 제어하는 단축 속성**
-    - visible
-      - 넘친 내용을 그대로 보여줌
-    - hidden
-      - 넘친 내용을 잘라냄
-    - scroll
-      - 넘친 내용을 잘라냄, 스크롤바 생성
-    - auto
-      - 넘친 내용이 있는 경우에만 잘라내고 스크롤바 생성
-    - **개별 속성**
-      - overflow-x
-      - overflow-y
+- ## ❗ border-radius
+  - 요소의 모서리를 둥글게 깎음
+  - 0
+    - 둥글게 없음
+  - 단위
+    - px, em, vw등 단위로 지정
+- ## ❗ box-sizing
+  - content-box
+    - 요소의 내용(content)으로 크기 계산
+    - 수동 계산
+  - border-box
+    - 요소의 내용 + padding + border로 크기 계산
+- ## ❗ overflow
+  - 요소의 크기 이상으로 **내용이 넘쳤을 때, 보여짐을 제어하는 단축 속성**
+  - visible
+    - 넘친 내용을 그대로 보여줌
+  - hidden
+    - 넘친 내용을 잘라냄
+  - scroll
+    - 넘친 내용을 잘라냄, 스크롤바 생성
+  - auto
+    - 넘친 내용이 있는 경우에만 잘라내고 스크롤바 생성
+  - **개별 속성**
+    - overflow-x
+    - overflow-y
+- ## ❗ display
+  - 요소의 화면 **출력(보여짐) 특성**
+---
+  - block
+    - 상자(레이아웃) 요소
+  - inline
+    - 글자 요소
+  - inline-block
+    - 글자 + 상자 요소
+  - **각 요소에 이미 지정되어 있는 값** 
+---
+  - flex
+    - 플렉스 박스 (1차원 레이아웃)
+  - grid
+    - 그리드 (2차원 레이아웃)
+  - none
+    - 보여짐 특성 없음, 화면에서 사라짐
+  - 기타
+    - table, table-row, table-cell 등등
+  - **따로 지정해서 사용하는 값**
    
