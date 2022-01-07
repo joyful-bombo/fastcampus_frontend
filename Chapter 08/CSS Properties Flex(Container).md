@@ -1,0 +1,52 @@
+💡 ## 플렉스(정렬)
+- ❗display
+  - Flex Container의 **화면 출력(보여짐)특성**
+  - flex
+    - 블록 요소와 같이 Flex Container 정의
+  - inline-flex
+    - 인라인 요소와 같이 Flex Container 정의
+- ❗flex-direction
+  - 주 축을 설정, 수평정렬, 수직정렬
+  - row(default)
+    - 행 축 (좌 => 우)
+  - row-reverse
+    - 행 축 (우 => 좌)
+  - column
+    - 열 축 (위 => 아래)
+  - column-reverse
+    - 열 축 (아래 => 위)
+  - cf) 주 축(Main Axis), 교차 축(Cross Axis)
+- ❗ flex-wrap
+  - Flex Items **묶음(줄 바꿈) 여부**
+  - nowrap(default)
+    - 묶음(줄 바꿈) 없음
+  - wrap
+    - 여러 줄로 묶음
+  - wrap-reverse
+    - wrap의 반대 방향으로 묶음
+- ❗ justify-content
+  - **주 축**의 정렬 방법
+  - flex-start
+    - Flex Items를 시작점으로 정렬
+  - flex-end
+    - Flex Items를 끝점으로 정렬
+  - center
+    - Flex Items를 가운데 정렬
+  - space-between
+    - 각 Flex Item 사이를 균등하게 정렬
+  - space-around
+    - 각 Flex Item의 외부 여백을 균등하게 정렬
+- ❗ align-content
+  - **교차 축의 여러 줄 정렬** 방법
+  - stretch
+    - Flex items를 시작점으로 정렬
+  - flex-start
+    - Flex Items를 시작점으로 정렬
+  - flex-end
+    - Flex Items를 끝점으로 정렬
+  - center
+    - Flex Items를 가운데 정렬
+  - space-between
+    - 각 Flex Item 사이를 균등하게 정렬
+  - space-around
+    - 각 Flex Item의 외부 여백을 균등하게 정렬
