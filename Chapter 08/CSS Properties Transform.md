@@ -28,3 +28,12 @@
     - matrix(n, n, n, n, n, n)
       - 2차원 변환 효과
   - ## ❗ 3D 변환 함수
+  - perspective(n)
+    - 원근법(거리)
+    - 단위 px
+  - rotateX(x)
+    - 회전(x축)
+    - 단위 deg
+  - rotateY(y)
+    - 회전(y축)
+    - 단위 deg
