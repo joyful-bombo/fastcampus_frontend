@@ -1,0 +1,96 @@
+body {
+  height: 100vh;
+  background-image: url(../background/bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  padding: 50px 0;
+}
+
+.container .heroes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.container .heroes .hero {
+  width: 80px;
+  height: 84px;
+  border: 3px solid #fff;
+  background-color: #555;
+  overflow: hidden;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 4px;
+  transform: skewX(-14deg);
+  transition:
+    transform .3s,
+    background-color .6s;
+}
+
+.container .heroes .hero:hover {
+  background-color: #ff9c00;
+  transform: scale(1.2) skewX(-14deg);
+  z-index: 1;
+}
+
+.container .heroes .hero .image {
+  width: 140%;
+  height: 100%;
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  transform: skewX(14deg) translateX(-16px);
+}
+
+.container .heroes .hero:nth-child(1) .image { background-image: url("../CharacterImage/hero1.png"); }
+.container .heroes .hero:nth-child(2) .image { background-image: url("../CharacterImage/hero2.png"); }
+.container .heroes .hero:nth-child(3) .image { background-image: url("../CharacterImage/hero3.png"); }
+.container .heroes .hero:nth-child(4) .image { background-image: url("../CharacterImage/hero4.png"); }
+.container .heroes .hero:nth-child(5) .image { background-image: url("../CharacterImage/hero5.png"); }
+.container .heroes .hero:nth-child(6) .image { background-image: url("../CharacterImage/hero6.png"); }
+.container .heroes .hero:nth-child(7) .image { background-image: url("../CharacterImage/hero7.png"); }
+.container .heroes .hero:nth-child(8) .image { background-image: url("../CharacterImage/hero8.png"); }
+.container .heroes .hero:nth-child(9) .image { background-image: url("../CharacterImage/hero9.png"); }
+.container .heroes .hero:nth-child(10) .image { background-image: url("../CharacterImage/hero10.png"); }
+
+.container .heroes .hero:nth-child(11) .image { background-image: url("../CharacterImage/hero11.png"); }
+.container .heroes .hero:nth-child(12) .image { background-image: url("../CharacterImage/hero12.png"); }
+.container .heroes .hero:nth-child(13) .image { background-image: url("../CharacterImage/hero13.png"); }
+.container .heroes .hero:nth-child(14) .image { background-image: url("../CharacterImage/hero14.png"); }
+.container .heroes .hero:nth-child(15) .image { background-image: url("../CharacterImage/hero15.png"); }
+.container .heroes .hero:nth-child(16) .image { background-image: url("../CharacterImage/hero16.png"); }
+.container .heroes .hero:nth-child(17) .image { background-image: url("../CharacterImage/hero17.png"); }
+.container .heroes .hero:nth-child(18) .image { background-image: url("../CharacterImage/hero18.png"); }
+.container .heroes .hero:nth-child(19) .image { background-image: url("../CharacterImage/hero19.png"); }
+.container .heroes .hero:nth-child(20) .image { background-image: url("../CharacterImage/hero20.png"); }
+
+.container .heroes .hero:nth-child(21) .image { background-image: url("../CharacterImage/hero21.png"); }
+.container .heroes .hero:nth-child(22) .image { background-image: url("../CharacterImage/hero22.png"); }
+.container .heroes .hero:nth-child(23) .image { background-image: url("../CharacterImage/hero23.png"); }
+.container .heroes .hero:nth-child(24) .image { background-image: url("../CharacterImage/hero24.png"); }
+.container .heroes .hero:nth-child(25) .image { background-image: url("../CharacterImage/hero25.png"); }
+.container .heroes .hero:nth-child(26) .image { background-image: url("../CharacterImage/hero26.png"); }
+.container .heroes .hero:nth-child(27) .image { background-image: url("../CharacterImage/hero27.png"); }
+.container .heroes .hero:nth-child(28) .image { background-image: url("../CharacterImage/hero28.png"); }
+.container .heroes .hero:nth-child(29) .image { background-image: url("../CharacterImage/hero29.png"); }
+.container .heroes .hero:nth-child(30) .image { background-image: url("../CharacterImage/hero30.png"); }
+
+.container .heroes .hero:nth-child(31) .image { background-image: url("../CharacterImage/hero31.png"); }
+.container .heroes .hero:nth-child(32) .image { background-image: url("../CharacterImage/hero32.png"); }
+
+.container .logo {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container .logo img {
+  width: 100%;
+}
