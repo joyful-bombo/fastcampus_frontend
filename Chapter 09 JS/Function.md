@@ -33,6 +33,7 @@ let c = sum(2, 4);
 
 console.log(a, b, c); // 3, 19, 6
 ```
+
 ```JS
 // 기명(이름이 있는) 함수
 function hello() {
