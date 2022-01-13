@@ -1,11 +1,12 @@
-# 💡 DOM API(Document Object Model, Application Programming Interface)
+# 💡 DOM API
+(Document Object Model, Application Programming Interface)
 ---
 ## 💡 Document
 - **HTML**
 
 ## 💡 Object
 - **div, span, input**
-
+---
 ```JS
 // HTML 요소(Element) 1개 검색/찾기, 제일 먼저 찾아지는 요소
 const boxEl = document.querySelector('.box');
