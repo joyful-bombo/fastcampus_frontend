@@ -6,7 +6,7 @@
 -  **href** : 가져올 문서의 경로 (hypertext reference)
 - 외부 문서를 가져와 연결할 때 사용(대부분 css 파일)
 - ex)
-  ```
+  ```html5
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./main.css">
   ```
@@ -20,11 +20,11 @@ cf)💡 icon
 
 ## 💡 script
 - **src** : 자바스크립트(JS) 파일 가져오는 경우
-``` 
+``` html5
 <script src="./main.js"></script>
 ```
 - 자바스크립트(JS)를 HTML 문서 안에서 작성하는 경우
-```
+```html5
 <script>
   console.log('Hello World!')
 </script>
