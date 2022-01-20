@@ -35,10 +35,11 @@
   <div data-fruit-name="banana">바나나</div>
   
   <script defer src="./main.js"></script>
-  in JS
+  ```
+  ```JS
   const els = document.querySelectorAll('div')
   els.forEach(el => {
     console.log(el.dataset.fruitName)
     })
- ```
+  ```
  
