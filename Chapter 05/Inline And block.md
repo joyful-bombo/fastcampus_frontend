@@ -4,7 +4,7 @@
 - 글자를 만들기 위한 요소
 - ex)
   - 
-  ```
+  ```html
   <span>Hello</span>
   <span>World</span>
   ```
