@@ -1,7 +1,7 @@
 # 💡 CSS Properties
 - Background
   - [배경](https://github.com/joyful-bombo/fastcampus_frontend/blob/main/Chapter%2008/CSS%20Properties%20Background.md)
-- BoxModel
+- Box Model
   - [박스모델](https://github.com/joyful-bombo/fastcampus_frontend/blob/main/Chapter%2008/CSS%20Properties%20Box%20Model.md)
 - Flex(Container)
   - [컨테이너](https://github.com/joyful-bombo/fastcampus_frontend/blob/main/Chapter%2008/CSS%20Properties%20Flex(Container).md)
