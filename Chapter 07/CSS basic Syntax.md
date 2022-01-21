@@ -1,5 +1,5 @@
 ## 💡 CSS 기본 문법
-```
+```css
 <div>HEROPY</div>
 
 div {
