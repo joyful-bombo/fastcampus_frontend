@@ -30,6 +30,7 @@
   <link rel ="stylesheet" href="./css/main.css">
   ```
   ```css
+  /* main.css */
   @import url("./box.css");
   
   div {
@@ -38,6 +39,7 @@
   }
   ```
   ```css
+  /* box.css */
   .box {
     background-color: red;
     padding: 20px;
